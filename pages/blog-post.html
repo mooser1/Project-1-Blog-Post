@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Jamie Long">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css" />
+        <meta charset="utf-8">
+        <meta name="description" content="This is about me">
+        <meta name="keywords" content="food, crypto, cryptocurrency, bitcoin">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moose's Blog</title>  
+    </head>
+    <body>
+        <div class="blog-post-container">
+            <header class="box" id="main-header">
+              <h1 id="site-title">Moose's Personal Blog</h1>
+              <h2 id="site-subtitle">Which Pill will you swallow?</h2>
+            </header>
+            <nav class="box">
+              <a href="blog-post.html" class="nav-link nav-hide">LATEST</a>
+              <a href="blog-post.html" class="nav-link nav-hide">ABOUT</a>
+              <a href="interests.html" class="nav-link nav-hide">My Interests</a>
+              <div class="nav-sidebar">
+                <div class="sidebar-pages">
+                  <a href="../index.html" class="nav-link">Home</a>
+                  <a href="#" class="nav-link">About</a>
+                  <a href="interests.html" class="nav-link">My Interests</a>
+                </div>
+                <h3 class="sidebar-header">Latest Moosings</h3>
+                <ul class="side-list">
+                  <li class="side-list-item">
+                   <a href="pages/blog-post.html" class="side-bar-link">latest Moosings</a>
+                  </li>
+                  <li class="side-list-item">
+                    <a href="pages/blog-post.html" class="side-bar-link">latest Moosings once upon a time</a>
+                  </li>                
+                  <li class="side-list-item">
+                    <a href="pages/blog-post.html" class="side-bar-link">latest Moosings second upon a time</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <article class="box">
+                <div class="blog-post">
+                  <p>
+                    <i>This would display something i have done in the recent past</i>
+                    <p>Here is a quote from WWF's website:</p>
+                    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                      For 50 years, WWF has been protecting the future of nature.
+                      The world's leading conservation organization,
+                      WWF works in 100 countries and is supported by
+                      1.2 million members in the United States and
+                      close to 5 million globally.
+                    </blockquote>
+                  </p>
+                  <div>
+                    <figure class="figurecaption">
+                      <img src="../img/mando.jpg" alt="Mandalorian">
+                      <figcaption class="figurecaption">Fig.1 - Figure of a Mandalorian</figcaption>
+                    </figure>
+                  </div>
+                </div>
+            </article>
+            <div class="box" id="about">
+                <div class="box about-image-container">
+                    <img src="../img/dr_riviera.png" alt="simpsons dr" id="about-icon">
+                </div>
+                <div class="box about-description">
+                    <h3 class="about-header">Author Info</h3>
+                    <p class="blog-date">
+                      <ul>
+                        <li>Nick Riviera</li>
+                        <li>Dr</li>
+                        <li><a href="https://www.port.ac.uk/">University of Portsmouth</a></li>
+                      </ul>
+                    </p>
+                    <p id="bio">Jamie is a timeserved engineer, trying to go through a career change by starting with learning web development.</p>
+                </div>
+            </div>           
+            <footer class="box">
+                <section class="socials"><!-- AddToAny BEGIN -->
+                  <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                   <a class="a2a_button_facebook"></a>
+                   <a class="a2a_button_twitter"></a>
+                   <a class="a2a_button_email"></a>
+                   <a class="a2a_button_linkedin"></a>
+                    <a class="a2a_button_telegram"></a>
+                   <a class="a2a_button_reddit"></a>
+                 </div>
+                 <script async src="https://static.addtoany.com/menu/page.js"></script>
+                  <!-- AddToAny END -->
+                </section>
+                <a href="https://github.com/mooser1">Jamie Long</a>&nbsp&copy;<span id="year"></span><br>
+                <a href="#">Terms of Service</a>
+            </footer>
+        </div>
+    </body>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</html>

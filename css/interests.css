@@ -1,0 +1,17 @@
+/* content  */
+#main1 {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content;
+    grid-template-areas: 
+    "post-new"
+    "post-current"
+    "post-old"
+    "post";
+    justify-content: center;
+}
+
+#post {
+    grid-area: post;
+}
